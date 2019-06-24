@@ -1,9 +1,7 @@
 
 def strengthOfWall(wallLength, noOfBricks):
     brickStrengths = []
-    for i in range(noOfBricks):
-        x = int(input(""))
-        brickStrengths.append(x)
+    brickStrengths = list(map(int, input().split()))
 
     brickStrengths.sort()
 
